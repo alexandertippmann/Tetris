@@ -1,0 +1,19 @@
+body {
+  background-color: 	#1F3756;
+  background-color: 	hsl(214, 47%, 23%);
+  text-align: center;
+  color:white;
+}
+
+td {
+  background-color: white;
+  width:20px;
+  height:20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color:black;
+}
+
+table{
+  margin: 5% auto;
+}
