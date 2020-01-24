@@ -56,6 +56,8 @@ var zArrayPos = [];
 var lArrayPos = [];
 var llArrayPos = [];
 
+var gameBoard = [];
+
 for (x = 0; x < 20; x++) {
   tArray.push([0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
   tArrayRot1.push([0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
@@ -83,6 +85,7 @@ for (x = 0; x < 20; x++) {
   zArrayPos.push([0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
   lArrayPos.push([0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
   llArrayPos.push([0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
+  gameBoard.push([0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
 }
 tArray[0][4] = 1;
 tArray[1][3] = 1;
