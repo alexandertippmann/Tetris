@@ -6,14 +6,24 @@ body {
 }
 
 td {
-  background-color: white;
+  background-color: #303030;
   width:20px;
   height:20px;
   border-width: 1px;
   border-style: solid;
-  border-color:black;
+  border-color:#303030;
 }
 
 table{
   margin: 5% auto;
+}
+
+.side-content{
+  text-align: right;
+  margin-top: 10%;
+}
+
+.cleared-lines{
+  color:white;
+
 }

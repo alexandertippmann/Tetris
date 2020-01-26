@@ -8,6 +8,7 @@ const darkBlue = "#2980b9";
 const red = "#e74c3c";
 const green = "#2ecc71";
 const yellow = "#f1c40f";
+const boardBackground = "#303030";
 
 class Piece {
   constructor(initialPosition, currentPosition, color, lowestX, highestX, highestY, rotationRule, rotationX) {
@@ -57,6 +58,8 @@ var lArrayPos = [];
 var llArrayPos = [];
 
 var gameBoard = [];
+var gameBoardColoring = [];
+
 
 for (x = 0; x < 20; x++) {
   tArray.push([0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
@@ -86,6 +89,7 @@ for (x = 0; x < 20; x++) {
   lArrayPos.push([0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
   llArrayPos.push([0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
   gameBoard.push([0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
+  gameBoardColoring.push([boardBackground, boardBackground, boardBackground, boardBackground, boardBackground, boardBackground, boardBackground, boardBackground, boardBackground, boardBackground]);
 }
 tArray[0][4] = 1;
 tArray[1][3] = 1;
