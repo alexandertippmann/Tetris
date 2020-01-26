@@ -23,7 +23,10 @@ table{
   margin-top: 10%;
 }
 
-.cleared-lines{
-  color:white;
+.controls{
+  margin-top: 5%;
+}
 
+.control-text{
+  margin-top:3%;
 }
