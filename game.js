@@ -206,11 +206,10 @@ $(document).keydown(function(ev) {
 
 $(document).on("swipeleft", function(ev){
   moveLeft();
-  $(".game-over-message").text("SWIPE");
 });
 
 $(document).on("swiperight", function(ev){
-  moveLeft();
+  moveRight();
 });
 
 $(document).on("swiperdown", function(ev){
