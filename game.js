@@ -212,7 +212,7 @@ $(document).on("swiperight", function(ev){
   moveRight();
 });
 
-$(document).on("swiperdown", function(ev){
+$(document).on("swipedown", function(ev){
   moveDown();
 });
 

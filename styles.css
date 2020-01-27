@@ -4,6 +4,7 @@ body {
   text-align: center;
   color:white;
   overflow: hidden;
+  height: 100%;
 }
 
 td {
