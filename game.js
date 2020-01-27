@@ -204,6 +204,18 @@ $(document).keydown(function(ev) {
   }
 });
 
+$(document).on("swipeleft", function(ev){
+  moveLeft();
+});
+
+$(document).on("swiperight", function(ev){
+  moveLeft();
+});
+
+$(document).on("swiperdown", function(ev){
+  moveDown();
+});
+
 //movement
 function moveLeft() {
   if (selectedPiece.xMin > 0) {
