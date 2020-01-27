@@ -36,8 +36,8 @@ table{
 @media only screen and (max-width: 576px){
   td {
     background-color: #303030;
-    width:40px;
-    height:40px;
+    width:30px;
+    height:30px;
     border-width: 1px;
     border-style: solid;
     border-color:#303030;
