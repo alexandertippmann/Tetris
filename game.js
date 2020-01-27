@@ -181,6 +181,8 @@ gameToEnd=false;
 
 }
 
+
+//implement swipedown
 (function() {
     var supportTouch = $.support.touch,
             scrollEvent = "touchmove scroll",
@@ -250,8 +252,7 @@ gameToEnd=false;
 
 })();
 
-//pressing key
-
+//pressing key or swiping
 $(document).keydown(function(ev) {
   if(gameRunning){
 
@@ -497,5 +498,3 @@ function rotate() {
   }
   renderSelectedPiece();
 }
-
-//implement swipedown

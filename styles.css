@@ -43,3 +43,7 @@ table{
     border-color:#303030;
   }
 }
+
+.ui-loader{
+  display: none !important;
+}
