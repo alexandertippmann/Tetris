@@ -158,6 +158,9 @@ $("td").click(function(e) {
     }
     $(".context-message").text("");
     $(".game-over-message").text("");
+    $(".cleared-lines-points").text(clearedLines);
+    $(".score").text(score);
+    $(".level").text(level);
     spawnNewPiece();
     gravity();
     gameRunning=true;
