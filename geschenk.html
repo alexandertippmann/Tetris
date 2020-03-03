@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Happy Birthday</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+
+  	<script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  	<link rel="stylesheet" href="./styles.css">
+  </head>
+  <body class="geschenk-body">
+    <div class="demo">
+
+    </div>
+
+    <img class="birthday-img" src="Screen.png" alt="Happy Birthday Bild">
+    <p class="schwafel">
+      Da du so viel Spaß an meinem Tetris hattest, kam mir spontan die Idee die Seite für deinen Geburtstag etwas zu modifizieren und dir darüber eine Kleinigkeit zu schenken. Leider kann man bei Amazon keinen Geschenkgutschein für ein bestimmtes Produkt erzeugen (was in dieser Situation ein nützliches Feature gewesen wäre). Deshalb müssen wir einen kleinen Umweg machen. Im folgenden findest du einen Link, mit dem du einem allgemeinen Geschenkgutschein deinem Amazon Account hinzufügen kannst (zumindest hoffe ich, dass das so klappt, wenn nicht, schreib mir ne Nachricht). Der zweite Link in der Liste ist dann das Geschenk, dass du dir von diesem Gutschein kaufen sollst.
+      </p>
+      <form class="julia-verify"  action="#" method="post">
+        <label for="answer">Um sicherzustellen, dass du wirklich Julia bist, beantworte noch schnell folgende Frage:</label>
+        <br>
+        <label for="answer">Was war der Arbeitstitel der App Idee die wir nie umgesetzt haben?</label>
+        <input class="answer" type="text" name="answer" value="">
+        <button class="btn btn-outline-light submit-btn" type="submit" name="button">Bestätigen</button>
+      </form>
+
+
+
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="jquery.fireworks.js" charset="utf-8"></script>
+      <script>
+      $('.demo').fireworks({ sound: false, opacity: 0.8});
+      $("#fireworksField").css("z-index",-1);
+      </script>
+      <script src="https://code.jquery.com/mobile/1.5.0-rc1/jquery.mobile-1.5.0-rc1.min.js"></script>
+
+
+      <script src="./pieceSetup.js" charset="utf-8"></script>
+      <script src="./game.js" charset="utf-8"></script>
+  </body>
+</html>

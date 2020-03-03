@@ -57,3 +57,94 @@ table, td, .side-content {
   user-select: none;
 
 }
+
+
+/*Julia Update*/
+
+body{
+  background-color: #4b2e83;
+  color: #b7a57a;
+}
+
+.julia-header{
+  margin-top: 3rem;
+  color: white;
+}
+h1,h2 {
+  font-family: 'Indie Flower';
+
+}
+
+.geschenk-button {
+  display: none;
+   background: #b7a57a;
+   background-image: -webkit-linear-gradient(top, #b7a57a, #85754d);
+   background-image: -moz-linear-gradient(top, #b7a57a, #85754d);
+   background-image: -ms-linear-gradient(top, #b7a57a, #85754d);
+   background-image: -o-linear-gradient(top, #b7a57a, #85754d);
+   background-image: linear-gradient(to bottom, #b7a57a, #85754d);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #ffffff;
+   font-family: 'Indie Flower';
+   font-size: 20px;
+   font-weight: 100;
+   padding: 20px;
+   box-shadow: 1px 1px 20px 0px #000000;
+   -webkit-box-shadow: 1px 1px 20px 0px #000000;
+   -moz-box-shadow: 1px 1px 20px 0px #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #b7a57a 1px;
+   text-decoration: none;
+   cursor: pointer;
+   text-align: center;
+}
+
+.geschenk-button:hover {
+   border: solid #b7a57a 1px;
+   background: #85754d;
+   background-image: -webkit-linear-gradient(top, #85754d, #b7a57a);
+   background-image: -moz-linear-gradient(top, #85754d, #b7a57a);
+   background-image: -ms-linear-gradient(top, #85754d, #b7a57a);
+   background-image: -o-linear-gradient(top, #85754d, #b7a57a);
+   background-image: linear-gradient(to bottom, #85754d, #b7a57a);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.birthday-img{
+  margin-top: 3rem;
+}
+
+.schwafel{
+  margin: 1rem 30%;
+  text-align: left;
+  color: #cccccc;
+}
+
+.julia-verify{
+  color:white;
+  border-width: 1px;
+  border-style: solid;
+  margin: 1rem 30%;
+  padding: 1rem;
+}
+
+.geschenk-body{
+  overflow: auto;
+}
+
+.submit-btn{
+  margin-top:5px;
+}
+
+.demo{
+  height:900px;
+  width:100%;
+  z-index: -1;
+  position: absolute;
+
+}

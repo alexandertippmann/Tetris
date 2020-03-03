@@ -40,6 +40,11 @@ function renderGameBoard() {
   $(".score").text(score);
   if(nextLevel){
     level++;
+    //JULIA
+    if(level==4){
+      juliaActivate();
+    }
+
     nextLevel=false;
     $(".level").text(level);
     interval=Math.pow((0.8-((level-1)*0.007)),(level-1))*1000;
@@ -114,7 +119,6 @@ function spawnNewPiece() {
 
 
   }
-  console.log("spawning");
   selectedPiece = piecesArray[Math.floor(Math.random() * 7)];
   console.log(selectedPiece);
   for (x = 0; x < 10; x++) {
@@ -501,3 +505,26 @@ function rotate() {
   }
   renderSelectedPiece();
 }
+
+
+//julia-mode
+
+$(".geschenk-button").click(function(ev){
+    window.location.href="geschenk.html";
+});
+
+function juliaActivate(){
+  $(".geschenk-button").css("display","inline-block");
+}
+
+$("form.julia-verify").submit(function(ev){
+  ev.preventDefault();
+  let input = $("input.answer").val();
+  if(input.toLowerCase()=="gifthub"){
+    $(this).remove();
+    $(".geschenk-body").append(`<a href="https://www.amazon.de/gp/r.html?C=3BJS1ODB89CPS&M=urn:rtn:msg:202002261510357837836b357d4b5bb4c62716a0c0p0eu&R=3TQH26BVL081G&T=C&U=https%3A%2F%2Fwww.amazon.de%2Fg%2FBHUAJUUYJ8ZT8B%3Fref_%3Dpe_3435531_257794311&H=2X3GDIQDIVRANLGFNPVLCICDL2AA&ref_=pe_3435531_257794311" class="btn btn-outline-light">Gutschein Aktivieren</a>
+    <a href="https://www.amazon.de/Surely-Youre-Joking-Mr-Feynman/dp/0393355624/ref=tmm_pap_title_0?_encoding=UTF8&qid=1582730783&sr=8-1" class="btn btn-outline-light">Geschenk</a>`);
+  }
+
+
+});
